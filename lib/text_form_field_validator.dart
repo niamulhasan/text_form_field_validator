@@ -48,6 +48,11 @@ class FormValidator {
           _errorMsg = "Invalid url";
         }
       }
+      if (stringFormat == StringFormat.numbers) {
+        if (!RegExp(r"^^[0-9]*$").hasMatch(data)) {
+          _errorMsg = "Invalid url";
+        }
+      }
     }
 
     if (regex != null) {

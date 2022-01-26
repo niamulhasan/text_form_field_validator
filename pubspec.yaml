@@ -2,7 +2,7 @@ name: text_form_field_validator
 description: A super simple dart function for validating text form field in dart and flutter.
 
 
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/niamulhasan/text_form_field_validator
 
 environment:
