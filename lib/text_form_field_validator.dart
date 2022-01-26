@@ -1,4 +1,4 @@
-library text_form_validator;
+library text_form_field_validator;
 
 class FormValidator {
   //validator static method

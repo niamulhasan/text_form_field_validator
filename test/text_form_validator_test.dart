@@ -1,12 +1,19 @@
-import 'package:flutter_test/flutter_test.dart';
-
-import 'package:text_form_validator/text_form_validator.dart';
+import 'package:test/test.dart';
+import 'package:text_form_field_validator/text_form_field_validator.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+  test("validate: ", () {
+    //Arrange
+    String data = "someone@email.com";
+
+    //Act
+    String? isNull = FormValidator.validate(
+      data,
+      required: true,
+      stringFormat: StringFormat.email,
+    );
+
+    //Assert
+    expect(isNull, null);
   });
 }
