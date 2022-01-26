@@ -7,7 +7,6 @@ class FormValidator {
     bool required = false,
     int min = 0,
     int max = 20000,
-    bool url = false,
     String? match,
     RegExp? regex,
     StringFormat? stringFormat,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:text_form_field_validator/text_form_validator.dart';
+import 'package:text_form_field_validator/text_form_field_validator.dart';
 
 void main() => runApp(MyApp());
 
